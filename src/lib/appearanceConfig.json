@@ -1,0 +1,615 @@
+{
+  "margin": {
+    "top": {
+      "value": 40,
+      "min": 0,
+      "max": 500
+    },
+    "right": {
+      "value": 80,
+      "min": 0,
+      "max": 500
+    },
+    "bottom": {
+      "value": 80,
+      "min": 0,
+      "max": 500
+    },
+    "left": {
+      "value": 80,
+      "min": 0,
+      "max": 500
+    }
+  },
+  "titleFontStyle": {
+    "color": {
+      "r": 80,
+      "g": 12,
+      "b": 0,
+      "a": 1
+    },
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "value": 25,
+      "min": null,
+      "max": null
+    },
+    "fontWeight": {
+      "value": 700,
+      "min": 0,
+      "max": 1000
+    },
+    "fontStyle": null,
+    "letterSpacing": {
+      "value": 0.1,
+      "min": 0,
+      "max": 1
+    },
+    "lineHeight": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    }
+  },
+  "subtitleFontStyle": {
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "value": 12,
+      "min": null,
+      "max": null
+    },
+    "fontWeight": {
+      "value": 400,
+      "min": 0,
+      "max": 1000
+    },
+    "fontStyle": null,
+    "letterSpacing": {
+      "value": 0.1,
+      "min": 0,
+      "max": 1
+    },
+    "lineHeight": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    }
+  },
+  "axesLabelsFontStyle": {
+    "color": {
+      "r": 67,
+      "g": 121,
+      "b": 163,
+      "a": 1
+    },
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "value": 14,
+      "min": null,
+      "max": null
+    },
+    "fontWeight": {
+      "value": 700,
+      "min": 0,
+      "max": 1000
+    },
+    "fontStyle": null,
+    "letterSpacing": {
+      "value": 0.1,
+      "min": 0,
+      "max": 1
+    },
+    "lineHeight": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    }
+  },
+  "axesTicksFontStyle": {
+    "color": {
+      "r": 67,
+      "g": 121,
+      "b": 163,
+      "a": 1
+    },
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "value": 14,
+      "min": null,
+      "max": null
+    },
+    "fontWeight": {
+      "value": 400,
+      "min": 0,
+      "max": 1000
+    },
+    "fontStyle": null,
+    "letterSpacing": {
+      "value": 0.1,
+      "min": 0,
+      "max": 1
+    },
+    "lineHeight": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    }
+  },
+  "legendFontStyle": {
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "value": 14,
+      "min": null,
+      "max": null
+    },
+    "fontWeight": {
+      "value": 400,
+      "min": 0,
+      "max": 1000
+    },
+    "fontStyle": null,
+    "letterSpacing": {
+      "value": 0.1,
+      "min": 0,
+      "max": 1
+    },
+    "lineHeight": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    }
+  },
+  "primaryGridVertLineStyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 200,
+      "g": 200,
+      "b": 200,
+      "a": 0.8
+    },
+    "dashArray": ""
+  },
+  "primaryGridHorizLineStyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 200,
+      "g": 200,
+      "b": 200,
+      "a": 0.8
+    },
+    "dashArray": ""
+  },
+  "secondaryGridVertLineStyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 200,
+      "g": 200,
+      "b": 200,
+      "a": 0.8
+    },
+    "dashArray": ""
+  },
+  "secondaryGridHorizLineStyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 200,
+      "g": 200,
+      "b": 200,
+      "a": 0.8
+    },
+    "dashArray": ""
+  },
+  "axisVertLineStyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 200,
+      "g": 200,
+      "b": 200,
+      "a": 0.8
+    },
+    "dashArray": ""
+  },
+  "axisHorizLineStyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 200,
+      "g": 200,
+      "b": 200,
+      "a": 0.8
+    },
+    "dashArray": ""
+  },
+  "line": {
+    "strokeWidth": {
+      "value": 4,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "dashArray": "",
+    "lineInterpolation": {
+      "value": "curved",
+      "options": [
+        "linear",
+        "stepped",
+        "curved"
+      ]
+    },
+    "point": {
+      "value": 5,
+      "min": 0,
+      "max": 10
+    },
+    "pointStroke": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "pointFillColor": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 1
+    }
+  },
+  "lineMissingPoint": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "dashArray": ""
+  },
+  "regressionLineStyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "dashArray": ""
+  },
+  "xZeroLinestyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "dashArray": ""
+  },
+  "yZeroLinestyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "dashArray": ""
+  },
+  "zeroVertLineStyle": null,
+  "zeroHorizLineStyle": null,
+  "labelLineStyle": {
+    "strokeWidth": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    },
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "dashArray": ""
+  },
+  "labelFontStyle": {
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": {
+      "value": 12,
+      "min": null,
+      "max": null
+    },
+    "fontWeight": {
+      "value": 400,
+      "min": 0,
+      "max": 1000
+    },
+    "fontStyle": null,
+    "letterSpacing": {
+      "value": 0.1,
+      "min": 0,
+      "max": 1
+    },
+    "lineHeight": {
+      "value": 1,
+      "min": 0,
+      "max": 10
+    }
+  },
+  "background": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 1
+  },
+  "categoryLinesColors": [
+    {
+      "r": 41,
+      "g": 99,
+      "b": 118,
+      "a": 1
+    },
+    {
+      "r": 161,
+      "g": 209,
+      "b": 222,
+      "a": 1
+    },
+    {
+      "r": 133,
+      "g": 38,
+      "b": 96,
+      "a": 1
+    },
+    {
+      "r": 195,
+      "g": 114,
+      "b": 165,
+      "a": 1
+    },
+    {
+      "r": 128,
+      "g": 142,
+      "b": 59,
+      "a": 1
+    },
+    {
+      "r": 217,
+      "g": 222,
+      "b": 181,
+      "a": 1
+    },
+    {
+      "r": 152,
+      "g": 91,
+      "b": 39,
+      "a": 1
+    },
+    {
+      "r": 228,
+      "g": 167,
+      "b": 100,
+      "a": 1
+    },
+    {
+      "r": 65,
+      "g": 74,
+      "b": 147,
+      "a": 1
+    },
+    {
+      "r": 169,
+      "g": 178,
+      "b": 215,
+      "a": 1
+    },
+    {
+      "r": 70,
+      "g": 128,
+      "b": 106,
+      "a": 1
+    },
+    {
+      "r": 156,
+      "g": 195,
+      "b": 164,
+      "a": 1
+    },
+    {
+      "r": 80,
+      "g": 47,
+      "b": 106,
+      "a": 1
+    },
+    {
+      "r": 152,
+      "g": 122,
+      "b": 175,
+      "a": 1
+    }
+  ],
+  "categoryAreasColors": [
+    {
+      "r": 67,
+      "g": 144,
+      "b": 171,
+      "a": 1
+    },
+    {
+      "r": 161,
+      "g": 209,
+      "b": 222,
+      "a": 1
+    },
+    {
+      "r": 41,
+      "g": 99,
+      "b": 118,
+      "a": 1
+    },
+    {
+      "r": 190,
+      "g": 63,
+      "b": 134,
+      "a": 1
+    },
+    {
+      "r": 195,
+      "g": 114,
+      "b": 165,
+      "a": 1
+    },
+    {
+      "r": 133,
+      "g": 38,
+      "b": 96,
+      "a": 1
+    },
+    {
+      "r": 194,
+      "g": 207,
+      "b": 86,
+      "a": 1
+    },
+    {
+      "r": 217,
+      "g": 222,
+      "b": 181,
+      "a": 1
+    },
+    {
+      "r": 128,
+      "g": 142,
+      "b": 59,
+      "a": 1
+    },
+    {
+      "r": 224,
+      "g": 141,
+      "b": 60,
+      "a": 1
+    },
+    {
+      "r": 228,
+      "g": 167,
+      "b": 100,
+      "a": 1
+    },
+    {
+      "r": 152,
+      "g": 91,
+      "b": 39,
+      "a": 1
+    },
+    {
+      "r": 85,
+      "g": 96,
+      "b": 163,
+      "a": 1
+    },
+    {
+      "r": 169,
+      "g": 178,
+      "b": 215,
+      "a": 1
+    }
+  ],
+  "symbol": {
+    "value": "circle",
+    "options": [
+      "circle",
+      "square"
+    ]
+  },
+  "minPointRadius": {
+    "value": 2,
+    "min": 0,
+    "max": 100
+  },
+  "pointRadius": {
+    "value": 10,
+    "min": 0,
+    "max": 100
+  },
+  "intraBarMargin": {
+    "value": 10,
+    "min": 0,
+    "max": 30
+  },
+  "centerPointRadius": {
+    "value": 1,
+    "min": 0,
+    "max": 5
+  },
+  "centerPointColor": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 1
+  },
+  "barWidth": {
+    "value": 10,
+    "min": 0,
+    "max": 30
+  },
+  "presetColors": []
+}

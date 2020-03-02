@@ -1,0 +1,13 @@
+diff --git a/node_modules/@accurat/chart-library/dist/lib/formatter-utils.js b/node_modules/@accurat/chart-library/dist/lib/formatter-utils.js
+index 2e90b26..d269dc9 100644
+--- a/node_modules/@accurat/chart-library/dist/lib/formatter-utils.js
++++ b/node_modules/@accurat/chart-library/dist/lib/formatter-utils.js
+@@ -3,7 +3,7 @@ import { round } from 'lodash';
+ import { formatTicksContinuous } from './format-ticks';
+ import { computeTicks } from '../components/axis/axes-utils';
+ import { remappedCategoryName } from './chart-utils';
+-export var dateFormatter = function (n) { return dayjs(n * 1000).format('YYYY-MM-DD'); };
++export var dateFormatter = function (n) { return dayjs(n).format('YYYY-MM-DD HH:mm:ss'); };
+ export var numberFixedFormatter = function (n) { return Number(n).toFixed(2); };
+ export var numberRoundedFormatter = function (n) { return "" + round(Number(n), 2); };
+ export var noFormatter = function (n) { return "" + n; };

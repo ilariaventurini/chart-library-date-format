@@ -8,7 +8,8 @@
     "build": "accurapp-scripts build",
     "test": "accurapp-scripts test",
     "lint": "accurapp-scripts lint",
-    "prettier": "accurapp-scripts prettier"
+    "prettier": "accurapp-scripts prettier",
+    "postinstall": "patch-package"
   },
   "browserslist": {
     "production": [
@@ -27,11 +28,16 @@
     "babel-preset-accurapp": "^5.0.0",
     "eslint-config-accurapp": "^5.0.0",
     "jest-config-accurapp": "^4.1.1",
+    "patch-package": "^6.2.1",
+    "postinstall-postinstall": "^2.0.0",
     "webpack-preset-accurapp": "^5.0.0"
   },
   "dependencies": {
+    "@accurat/chart-library": "^0.5.0",
     "@accurat/tachyons-lite": "^1.0.4",
     "d3": "^5.15.0",
+    "data-juggler": "^0.5.3",
+    "dayjs": "^1.8.21",
     "lodash-es": "^4.17.15",
     "modern-normalize": "^0.6.0",
     "react": "^16.13.0",
