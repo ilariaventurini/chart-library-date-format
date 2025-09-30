@@ -38,7 +38,7 @@
     "d3": "^5.15.0",
     "data-juggler": "^0.5.3",
     "dayjs": "^1.8.21",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "modern-normalize": "^0.6.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
